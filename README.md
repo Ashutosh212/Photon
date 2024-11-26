@@ -1,7 +1,7 @@
 # Photon
 IE 643 Project
 
-# Learning2Dance_CAG_2020
+# 2D dance movement generation
 
 This repository contains the implementation of a **2D Dance Move Generation Model**. The model uses **OpenPose** for pose extraction and **Librosa** for audio analysis to generate 2D dance moves based on audio inputs. A simple **GUI interface** is provided for user interaction.
 
