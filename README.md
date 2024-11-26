@@ -26,3 +26,24 @@ Follow the steps below to set up and run the GUI interface:
 2. Install the required dependencies by running:  
    ```bash
    pip install -r requirements.txt
+File Structure
+Learning2Dance_CAG_2020/app.py: Main script to launch the GUI interface.
+samples/: Folder containing four sample .wav files for testing.
+model/: Pre-trained model files (automatically loaded when running the GUI).
+Running the GUI
+Navigate to the repository directory:
+
+bash
+Copy code
+cd Learning2Dance_CAG_2020
+Run the app.py file to launch the GUI interface:
+
+bash
+Copy code
+python app.py
+Interact with the GUI:
+
+Use the interface to select one of the sample .wav files or upload your own.
+The generated 2D dance moves will be displayed after processing.
+Example Files
+The repository includes four sample .wav files located in the samples/ folder. These can be used to test the functionality of the model. Simply select a file from the GUI and watch the generated dance moves.
